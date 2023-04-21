@@ -1,6 +1,6 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 
 class Header extends Component {
   render() {
@@ -9,7 +9,7 @@ class Header extends Component {
       <section>
         <p data-testid="email-field">{email}</p>
         <div className="expenses-header">
-          <p data-testid="total-field">Despesa total: R$ 0,00</p>
+          <p data-testid="total-field">Despesa Total: R$ 0,00</p>
           <p data-testid="header-currency-field">BRL</p>
         </div>
       </section>
